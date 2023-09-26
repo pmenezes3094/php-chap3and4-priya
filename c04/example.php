@@ -3,7 +3,8 @@ include 'classes/Account.php';
 include 'classes/Customer.php';
 
 $accounts = [new Account(20489446, 'Checking', -20),
-             new Account(20148896, 'Savings', 380),];
+             new Account(20148896, 'Savings', 380),
+             new Account(87654321, 'Savings', 120),];
 
 $customer = new Customer('Ivy', 'Stone', 'ivy@eg.link', 'Jup!t3r2684', $accounts);
 ?>
