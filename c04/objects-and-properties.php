@@ -22,6 +22,8 @@ $customer->surname  = 'Mezia';
 $account->balance = 1000.00;
 ?>
 <?php include 'includes/header.php'; ?>
+<p>Email: <?= $customer->forename ?></p>
+<p>Email: <?= $customer->surname ?></p>
   <p>Email: <?= $customer->email ?></p>
   <p>Balance: $<?= $account->balance ?></p>
 <?php include 'includes/footer.php'; ?>
