@@ -8,6 +8,7 @@ function write_copyright_notice()
 {
     $year = date('Y');
     echo '&copy; ' . $year;
+    echo "The Candy Store";
 }
 ?>
 <!DOCTYPE html>
