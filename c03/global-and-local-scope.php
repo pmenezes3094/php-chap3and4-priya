@@ -1,5 +1,5 @@
 <?php
-$tax = '20';
+$tax = '25';
 
 function calculate_total($price, $quantity)
 {
