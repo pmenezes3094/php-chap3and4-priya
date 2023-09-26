@@ -1,5 +1,5 @@
 <?php
-$stock = 25;
+$stock = 8;
 
 function get_stock_message($stock)
 {
