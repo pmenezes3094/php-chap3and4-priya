@@ -32,8 +32,8 @@ class Account {
 }
 
 //Create an array to store in the property
-$numbers = ['account_number' => 12345678,
-            'routing_number' => 987654321,];
+$numbers = ['account_number' => 87654321,
+            'routing_number' => 123456789,];
 
 //Create an instance of the class and set properties
 $account = new Account($numbers, 'Savings', 10.00);
